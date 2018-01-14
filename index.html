@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<h1 >QuảnLýSinhViên</h1>
+		<form>
+			<div class="form-group">
+				<label>Mã SV:</label>
+				<input type="text" class="form-control" id="masv">
+			</div>
+			<div class="form-group">
+				<label>Họ tên:</label>
+				<input type="text" class="form-control" id="hoten">
+			</div>
+			<div class="form-group">
+				<label >CMND:</label>
+				<input type="text" class="form-control" id="cmnd">
+			</div>
+			<div class="form-group">
+				<label >Email:</label>
+				<input type="text" class="form-control" id="email">
+			</div>
+			<div class="form-group">
+				<label>Điện thoại:</label>
+				<input type="text" class="form-control" id="dienthoai">
+			</div>
+			  <!-- <button type="button" class="btn btn-primary" id="themsinhvien" onclick="Themsinhvien()">Thêm sinh viên</button><br> -->
+			   <button type="button" class="btn btn-success" id="luu" onclick="set()">Lưu storage</button>
+			   <!-- <button type="button" class="btn btn-success" id="lay" onclick="Getstorage()">Lấy storage</button>
+			   <button type="button" class="btn btn-success" id="xoasv">Xóa Sinh viên</button><br> -->
+	 <table class="table table-bordered">
+    <thead>
+      <tr>
+      	<th> </th>
+        <th>MaSV</th>
+        <th>Họ Tên</th>
+        <th>Email</th>
+        <th>CMND</th>
+        <th>Điện Thoại</th>
+        <th>Điểm tb</th>
+        <th>Xếp loại</th>
+      </tr>
+    </thead>
+    <tbody id="tbodysinhvien">
+      <tr>
+        
+      </tr>
+    </tbody>
+  </table>
+
+		</form>
+	</div>
+	<div class="abc"></div>
+	<!-- <script type="text/javascript" src="Sinhvien.js"></script>
+	<script type="text/javascript" src="Dssinhvien.js"></script>
+	<script type="text/javascript" src="main.js"></script> -->
+	<script type="text/javascript" src="bundle.js"></script>
+
+</body>
+</html>
